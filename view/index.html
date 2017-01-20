@@ -1,1 +1,49 @@
-<%=title %>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale = 1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="/static/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+    <title>Homepage of Book Store</title>
+</head>
+
+<body>
+    <style type="text/css">
+    .container-wrap {
+        height: 100%;
+        overflow:hidden;
+        
+    }
+    .container-scroll {
+        position: absolute;
+        top: 45px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        overflow-y: scroll;
+
+    }
+    </style>
+    <div id="root">
+        <div class="container-wrap">
+            <% include include/header.html %>
+            <div class="container-scroll">
+                <% include include/index_top.html %>
+                <% include include/index_hot.html %>
+                <% include include/index_recommend.html %>
+                <% include include/index_female.html %>
+                <% include include/index_male.html %>
+                <% include include/index_free.html %>
+                <% include include/index_bottom.html %>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/static/script/vue.js"></script>
+<script src="/static/script/zepto.js"></script>
+<script src="/static/script/pages/index.js"></script>
+
+</html>
