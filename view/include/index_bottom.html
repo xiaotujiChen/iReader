@@ -5,13 +5,9 @@
     </div>
 	<ul class="banner-h5-list">
 		<div>
-			<li>
+			<li v-for="item in topic">
 				<div class="banner-h5-cover">
-					<img class="cover" src="http://image.read.duokan.com/mfsv2/download/fdsc3/p01cjtwdtMY9/vOmsMitEMiFJmW.jpg"></div>
-			</li>
-			<li>
-				<div class="banner-h5-cover">
-					<img class="cover" src="http://image.read.duokan.com/mfsv2/download/fdsc3/p01cjtwdtMY9/vOmsMitEMiFJmW.jpg"></div>
+					<img class="cover" alt="{{item.title}}" v-bind:src="item.ad_pic_url"></div>
 			</li>
 		</div>
 	</ul>

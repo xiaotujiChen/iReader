@@ -27,9 +27,10 @@
 
     }
     </style>
-    <div id="root">
-        <div class="container-wrap">
+    <div id="root" style="width:734px">
+        <div class="container-wrap" id="app">
             <% include include/header.html %>
+
             <div class="container-scroll">
                 <% include include/index_top.html %>
                 <% include include/index_hot.html %>
@@ -39,6 +40,9 @@
                 <% include include/index_free.html %>
                 <% include include/index_bottom.html %>
             </div>
+        </div>
+        <div style="width: 734px;float: left;">
+            <% include include/index_shelf.html %>
         </div>
     </div>
 </body>
