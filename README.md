@@ -13,7 +13,7 @@
 ## Build setup
 ``` bash                                                 
 # clone the repo into your disk.
-$ git clone https://github.com/cccyb/Reader.git
+$ git clone https://github.com/xiaotujiChen/iReader.git
 
 # install dependencies
 $ npm install
