@@ -15,8 +15,8 @@
 # clone the repo into your disk.
 $ git clone https://github.com/xiaotujiChen/iReader.git
 
-# install dependencies
-$ npm install (not necessary)
+# install dependencies(not necessary)
+$ npm install 
 
 # serve with hot reload at localhost:8888
 $ node app.js
