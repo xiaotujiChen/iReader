@@ -1,5 +1,5 @@
 {
-  "name": "iReader",
+  "name": "reader",
   "version": "1.0.0",
   "description": "web reader site",
   "main": "app.js",
@@ -22,6 +22,10 @@
     "type": "git",
     "url": "git+https://github.com/cccyb/Reader.git"
   },
-  "author": "Xiyu Chen",
-  "license": "ISC"
+  "author": "cccyb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cccyb/Reader/issues"
+  },
+  "homepage": "https://github.com/cccyb/Reader#readme"
 }
